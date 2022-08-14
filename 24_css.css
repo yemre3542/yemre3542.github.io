@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.empty {
+    height: 400px;
+    display: none;
+}
+
+html {
+
+    font-size: 10px;
+}
+
+.allign-center {
+
+    text-align: center;
+
+}
+
+.allign-center-ver {
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: #333;
+    color: white;
+
+
+}
+
+.topmenu {
+    background-color: #333;
+    width: 100%;
+    height: 5.2rem;
+    position: sticky;
+    top: 0;
+
+
+}
+
+
+.topmenu ul {
+    font-size: 2rem;
+    display: inline;
+    transition: 0.4s;
+
+
+}
+
+.topmenu li {
+    font-size: 2rem;
+    display: inline;
+    margin: 1rem;
+    transition: 0.4s;
+
+
+}
+
+.topmenu li:hover {
+
+    border-bottom: 1px solid white;
+    font-size: 2.5rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header p {
+    padding: 1.6rem 1.6rem;
+    background-color: rgba(175, 54, 54, 0.158);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 0.1px rgba(175, 54, 54, 0.158);
+    border-radius: 20px;
+    margin-top: 2rem;
+
+}
+
+header {
+    height: 45rem;
+    width: auto;
+
+
+}
+
+header .bg-img {
+    position: absolute;
+    background-image: url(images/to_the_moon.webp);
+    background-size: cover;
+    background-position: center;
+    height: 45rem;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+
+}
+
+header .content {
+    padding: 15rem 0;
+    padding-bottom: 0;
+    opacity: 1;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.7rem;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 10rem;
+    box-shadow: 3px 1px 15px white, 0px 3px 15px lightgray inset;
+    -moz-box-shadow: 3px 1px 15px white, 0px 3px 15px lightgray inset;
+    -webkit-box-shadow: 3px 1px 15px white, 0px 3px 15px lightgray inset;
+    transition: all 0.4s;
+}
+
+.btn:hover {
+    background-color: #333;
+    border: 2px solid white;
+    font-size: 2rem;
+    box-shadow: 10px 1px 15px white;
+    -moz-box-shadow: 10px 1px 15px white;
+    -webkit-box-shadow: 10px 1px 15px white;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    border: 0px solid #333;
+    height: fit-content;
+    margin: 2rem;
+    border-radius: 15px;
+    padding: 1.5rem;
+    background-color: #333;
+    color: #eaeaee;
+    overflow: scroll;
+    overflow-x: hidden;
+
+
+}
+
+.container::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+.container-col {
+    display: flex;
+    border: 2px solid #333;
+    height: fit-content;
+    margin: 2rem;
+    border-radius: 15px;
+    padding: 1.5rem;
+    background-color: #333;
+    color: #eaeaee;
+}
+
+.container-col-own {
+    display: flex;
+    border: 2px solid #333;
+    height: fit-content;
+    margin: 2rem;
+    border-radius: 15px;
+    padding: 1.5rem;
+    background-color: #333;
+    color: #eaeaee;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: auto;
+    border: 0px solid black;
+    border-radius: 15px;
+    margin: 5px;
+
+}
+
+.box-own {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: auto;
+    border: 0px solid black;
+    border-radius: 15px;
+    margin: 5px;
+
+}
+
+
+img {
+    transition: 1s;
+}
+
+#s1 img:hover {
+    transform: scale(1.2)
+}
+
+
+
+
+#s1 {
+    background-color: #eaeaee;
+    color: #333;
+    padding: 3.2rem 0;
+    height: fit-content;
+
+}
+
+
+
+#s1 img {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: auto;
+    margin-right: 1rem;
+
+}
+
+#s1 p {
+
+    text-align: left;
+
+}
+
+#s2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+#s2 {
+    background-color: #eaeaee;
+    color: #333;
+    padding: 3.2rem 0;
+    height: fit-content;
+
+}
+
+.box-2 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 5px;
+
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    margin: 2rem;
+    height: 250px;
+    border: 0px solid #333;
+    border-radius: 15px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+    color: #333;
+
+
+}
+
+#s3 {
+    background-color: #eaeaee;
+    color: #333;
+    padding: 3.2rem 0;
+    height: fit-content;
+
+}
+
+#s3 img {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: auto;
+
+
+}
+
+#s3 img:hover {
+    transform: scale(1.2)
+}
+
+.round {
+    border: 0px solid black;
+    border-radius: 15px;
+}
+
+#logo {
+    margin-left: 20px;
+    width: 80px;
+    height: auto;
+}
+
+#s3 li {
+    font-size: 1rem;
+    display: inline-block;
+    margin: 1rem;
+    transition: 0.4s;
+}
+
+#s3 li h1 {
+    margin-top: 2rem;
+    color: #333;
+    
+
+}
+
+.add{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.add img{
+    width: 250px;
+    height: auto;
+    transition: 1s;
+}
+
+.add img:hover{
+    transform: scale(1.2)
+    
+}
+
+@media screen and (min-width:801px) {
+    .topnav {
+        display: none;
+
+    }
+
+
+}
+
+@media screen and (max-width:800.9px) {
+    .topmenu {
+        display: none;
+    }
+
+    .topnav {
+        position: sticky;
+        top: 0;
+        overflow: hidden;
+        background-color: #333;
+
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
+
+    /* Style navigation menu links */
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        display: block;
+    }
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    /* Add a grey background color on mouse-over */
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    /* Style the active link (or home/logo) */
+    .active {
+        background-color: #333;
+        color: white;
+    }
+
+    .container-col-own {
+        display: flex;
+        flex-direction: column;
+        border: 0px solid #333;
+        height: fit-content;
+        margin: 2rem;
+        border-radius: 15px;
+        padding: 1.5rem;
+        background-color: #333;
+        color: #eaeaee;
+    }
+
+    .box-own {
+
+        width: 100%;
+        border: 0px solid black;
+        border-radius: 15px;
+        margin: 5px;
+
+    }
+
+    #s3 img {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: auto;
+        margin: 2rem;
+       
+    }
+
+    #s3 li h1 {
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: auto;
+        margin: 2rem;
+    
+    }
+
+    .add img{
+        width: 150px;
+        height: auto;
+    }
+
+}
