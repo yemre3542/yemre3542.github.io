@@ -6,8 +6,9 @@
     <meta charset="utf-8" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" lang="eng" />
-    <meta name="description" content=" We Are Developers For 3 Years. We Share The Most Profitable Tokens Before Anyone
-    Else. If You Wanna Grow With Us, Join Us. We Develop, We Share, We Grow.">
+    <meta name="description"
+        content=" We Are Developers For 3 Years. We Share The Most Profitable Tokens Before Anyone
+    Else. If You Wanna Grow With Us, Join Us. We Develop, We Share, We Grow. Web Design, Graphic Design, Gif Design, Promotion, Consulting">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +20,8 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="24_css.css">
+    <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
+    <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js"></script>
 
     <script>
         function myFunction() {
@@ -36,7 +39,7 @@
 <body>
 
     <nav>
-        <div class="navcontent allign-center-ver">
+        <div class="navcontent">
             <a href="#about">About Us</a>
             <a href="#projects">Recent Projects</a>
             <a href="#join">Join Us</a>
@@ -79,14 +82,76 @@
         <section id="s1">
 
             <h1 class="allign-center">Who Are We?</h1>
-            <div class="container">
+            <div class="container except">
                 <a href="https://t.me/+tgcJ454V8j5lOTQ8" target=”_blank><img src="images/crow_logo.png" alt=""></a>
                 <p class="text-center"> We Are Developers For 3 Years. We Share The Most Profitable Tokens Before Anyone
-                    Else. If You Wanna Grow With Us, Join Us. <br><br><br> We Develop, We Share, We Grow.
+                    Else. If You Wanna Grow With Us, Join Us. We have Expanded Our Services. Check Below. <br><br><br>
+                    We Develop, We Share, We Grow.
                 </p>
             </div>
+            <h1 class="allign-center">Services</h1>
+
+            <ul class="slider allign-center">
+                <li><a href="https://t.me/crowdsgn" target="_blank"><img src="images/web_desing.png" alt=""></a>
+                    <h1>Web Design</h1>
+                </li>
+                <li><a href="https://t.me/crowdsgn" target="_blank"><img src="images/graphic.png" alt=""></a>
+                    <h1>Graphic Design</h1>
+                </li>
+                <li><a href="https://t.me/crowdsgn" target="_blank"><img src="images/ata_gif.gif" alt=""></a>
+                    <h1>Gif Design</h1>
+                </li>
+                <li><a href="https://t.me/+tgcJ454V8j5lOTQ8" target="_blank"><img src="images/cg_listing.jpg"
+                            alt=""></a>
+                    <h1>CG & CMC Listing</h1>
+                </li>
+                <li><a href="https://t.me/+tgcJ454V8j5lOTQ8" target="_blank"><img src="images/promotion.png" alt=""></a>
+                    <h1>Promotion</h1>
+                </li>
+                <li><a href="https://t.me/+tgcJ454V8j5lOTQ8" target="_blank"><img src="images/consulting.png"
+                            alt=""></a>
+                    <h1>Consulting</h1>
+                </li>
+
+            </ul>
+            <script>
+                const slider = new A11YSlider(document.querySelector('.slider'), {
+                    adaptiveHeight: false,
+                    dots: true,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    responsive: {
+                        800.9: {
+                            dots: false,
+                        },
+
+
+                    }
+
+                });
+            </script>
+            <!-- <div class="services"></div> -->
+            <!-- 
+                <div><img src="images/ata_gif.gif" alt="">
+                    <h1>Web Design</h1>
+                </div>
+                <div><img src="images/ata_gif.gif" alt="">
+                    <h1>Graphic Design</h1>
+                </div>
+                <div><img src="images/ata_gif.gif" alt="">
+                    <h1>Gif Design</h1>
+                </div>
+                <div><img src="images/ata_gif.gif" alt="">
+                    <h1>Promotion</h1>
+                </div>
+                <div><img src="images/ata_gif.gif" alt="">
+                    <h1>Consulting</h1>
+                </div> -->
+
+            </div>
+
             <h1 class="allign-center">Owners</h1>
-            <div class="container-col-own">
+            <div class="container-col-own except">
                 <div class="box-own">
                     <a href="https://t.me/Mortysweather" target=”_blank><img class="round" src="images/ata_gif.gif"
                             alt=""></a>
@@ -94,7 +159,7 @@
                     <p class="text-center">Mortysweather: You Can Contact Us On Telegram Anytime</p>
 
                 </div>
-                <div class="box-own">
+                <div class="box-own except">
                     <a href="https://t.me/sepp4r" target=”_blank><img class="round" src="images/ekkus_gif.gif"
                             alt=""></a>
                     <p class="text-center">sepp4r: You Can Contact Us On Telegram Anytime</p>
@@ -120,7 +185,7 @@
             <h1 class="allign-center" id="join">Join Us</h1>
 
             <div class="footer">
-                <ul class="allign-center">
+                <ul>
                     <li class="telegram "><a href="https://t.me/+tgcJ454V8j5lOTQ8">
                             <img src="images/telegram.png" alt="">
                             <h1 class="text-center">Main</h1>
@@ -136,7 +201,9 @@
                 </ul>
             </div>
         </section>
-        <div class="add"><a href="https://t.me/crowdsgn" target="_blank"><h1 class="allign-center">Do You Need A Website?</h1></a>
+        <div class="add"><a href="https://t.me/crowdsgn" target="_blank">
+                <h1 class="allign-center">Do You Need A Website?</h1>
+            </a>
         </div>
 
     </main>
